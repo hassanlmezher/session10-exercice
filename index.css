@@ -333,9 +333,6 @@
     height: 620px;
 
 }
-.sec5iner1{
-    
-}
 
 .iner1{
     font-size: 25px;
@@ -351,6 +348,8 @@
     height: 50px;
     background-color: black;
     color: white;
+    font-size: 15px;
+    font-weight: 800;
 }
 
 .section6{
@@ -424,12 +423,68 @@
     background-color: black;
     color: white;
     border: none;
+    font-size: 15px;
+    font-weight: 800;
 }
 .sec7btn:hover{
     background-color: white;
     color: black;
     border: 1px solid black;
     transform: matrix(1.05);
-    transition: all 0.3s ease-in-out
-    ;
+    transition: all 0.3s ease-in-out;
+}
+
+.section8{
+    display: flex;
+    height: 1050px;
+    margin-top: -125px;
+    
+}
+
+.sec8div1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.sec8div2{
+    width: 50%;
+    height: 100%;
+    background-image: url(sec8.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sec8pp{
+    padding-top: 100px;
+}
+
+.sec8p{
+    padding-left: 100px;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.sec8iner1{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.sec8btn{
+    margin-top: 30px;
+    margin-left: 100px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+}
+.sec8btn:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    transform: matrix(1.05);
+    transition: all 0.3s ease-in-out;
 }
