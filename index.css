@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root{
+    --grey: #595959;
+}
+
+.mainheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 27px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.iner2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.twitter{
+    width: 26px;
+}
+.instagram{
+    width: 26px;
+}
+.facebook{
+    width: 42px;
+}
+.search{
+    width: 25px;
+}
+.headerp{
+    color: var(--grey);
+    font-size: 21px;
+}
+.headerp1{
+    color: var(--grey);
+    font-size: 25px;
+    font-weight: 800;
+}
