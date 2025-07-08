@@ -535,3 +535,19 @@
     transform: matrix(1.05);
     transition: all 0.3s ease;
 }
+
+.section10{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+.sec10div2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.sec10div1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
