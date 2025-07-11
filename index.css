@@ -684,6 +684,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 1000px;
     align-items: center;
 }
 .sec13div1{
@@ -692,7 +693,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
     gap: 30px;
 }
 
@@ -811,6 +811,97 @@
     background-color: white;
     color: black;
     border: 1px solid black;
+    transform: matrix(1.05);
+    transition: all 0.3s ease;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 450px;
+    gap: 70px;
+}
+
+.footerdiv1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footerp1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.footerdiv2{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: -60px;
+}
+
+.footerheader{
+    font-size: 21px;
+    font-weight: 600;
+    color: rgb(201, 201, 201);
+}
+
+.footerinput{
+    background-color: transparent;
+    border: 2px solid rgb(201, 201, 201);
+    color: white;
+    height: 35px;
+    width: 200px;
+    padding-left: 170px;
+    font-size: 20px;
+}
+
+.footerbutton{
+    width: 170px;
+    height: 37px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.footerdiv3{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.homehome{
+    margin-top: 10px;
+}
+
+.footerdiv5{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.lastdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.last1{
+    width: 50px;
+}
+
+.footerbutton:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    transform:scale(1.05);
+    transition: all 0.5s ease;
+}
+
+.footerp4:hover{
+    color: var(--grey);
     transform: matrix(1.05);
     transition: all 0.3s ease;
 }
